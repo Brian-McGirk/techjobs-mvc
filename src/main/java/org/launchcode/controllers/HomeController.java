@@ -20,7 +20,7 @@ public class HomeController {
         actionChoices.put("list", "List");
 
         model.addAttribute("actions", actionChoices);
-
+        //vcs test
         return "index";
     }
 
